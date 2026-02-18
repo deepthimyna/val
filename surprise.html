@@ -2,14 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Our Memories 💖</title>
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Our Memories 💖</title>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-
   <style>
     * {
       box-sizing: border-box;
@@ -45,9 +39,9 @@
 
     /* 📸 Slider */
     .slider-window {
-      width: 90%;
-      max-width: 400px;
-      height: 500px;
+      width: 95%;
+      max-width: 420px;
+      height: 80vh;
       margin: 50px auto;
       overflow: hidden;
       border-radius: 20px;
@@ -69,7 +63,8 @@
 
     .slide img {
       width: 100%;
-      height: 300px;
+      height: 55vh;
+      max-height:350px;
       object-fit: cover;
       border-radius: 15px;
     }
@@ -110,6 +105,16 @@
   animation-delay: 1s;
   opacity: 0;
 }
+@media (max-width: 480px) {
+  .slide p {
+    font-size: 16px;
+  }
+
+  .val-link {
+    font-size: 16px;
+    padding: 10px 22px;
+  }
+}
 
   </style>
 </head>
@@ -124,17 +129,53 @@
     <div class="slider-track">
 
       <div class="slide">
-        <img src="images/1.jpg" alt="">
-        <p>The first moment that still makes me smile 💫</p>
+        <img src="https://github.com/deepthimyna/val/blob/main/jm.jpeg?raw=true">
+
+        <p>Our Coorg Trip</p>
+      </div>
+      <div class="slide">
+        <img src="https://github.com/deepthimyna/val/blob/main/jm2.jpeg?raw=true" alt="">
+        <p>This is us if you was a kid</p>
+      </div>
+      <div class="slide">
+        <img src="https://github.com/deepthimyna/val/blob/main/jm3.jpeg?raw=true" alt="">
+        <p>Your Brithday which is so special day for me </p>
+      </div>
+      <div class="slide">
+        <img src="https://github.com/deepthimyna/val/blob/main/jm4.jpeg?raw=true" alt="">
+        <p>I wish our future looks the same as our present memories 💫</p>
+      </div>
+      <div class="slide">
+        <img src="https://github.com/deepthimyna/val/blob/main/jm5.jpeg?raw=true" alt="">
+        <p>Saree suits you as I do , jumkha beautifies your beauty as you beautified my life</p>
+      </div>
+      <div class="slide">
+        <img src="https://github.com/deepthimyna/val/blob/main/jm6.jpeg?raw=true" alt="">
+        <p>We will build a house in madkeri where you can see Raj seat sun set everyday </p>
+      </div>
+      <div class="slide">
+        <img src="https://github.com/deepthimyna/val/blob/main/jm7.jpeg?raw=true" alt="">
+        <p>1st time mine inner child was so happy seeing you sleep like a kid </p>
+      </div>
+      <div class="slide">
+        <img src="https://github.com/deepthimyna/val/blob/main/jm8.jpeg?raw=true" alt="">
+        <p>Ready to face all the challenges in life with you 💪</p>
+      </div>
+      <div class="slide">
+        <img src="https://github.com/deepthimyna/val/blob/main/jm9.jpeg?raw=true" alt="">
+        <p>I still remember the dream I dreamt of you while sleeping in your arms 💫</p>
+      </div>
+      <div class="slide">
+        <img src="https://github.com/deepthimyna/val/blob/main/jm10.jpeg?raw=true" alt="">
+        <p>Every date is worth remembering because of you 💫</p>
+      </div>
+      <div class="slide">
+        <img src="https://github.com/deepthimyna/val/blob/main/jm11.jpeg?raw=true" alt="">
+        <p>I want us to end up more happy together 💫</p>
       </div>
 
       <div class="slide">
-        <img src="images/2.jpg" alt="">
-        <p>Some memories never fade 💖</p>
-      </div>
-
-      <div class="slide">
-        <img src="images/10.jpg" alt="">
+        <img src="https://github.com/deepthimyna/val/blob/main/jm12.jpeg?raw=true" alt="">
        <p>
     And now… after all these memories,  
     I have one last question for you 💖
@@ -147,46 +188,6 @@
       
     </div>
   </div>
-
-  <!-- 🎶 Music -->
-  <audio id="bg-music"></audio>
-
-  <script src="script.js"></script>
-</body>
-</html>
-</head>
-<body>
-
-  <!-- ❤️ Hearts (added, required by JS) -->
-  <div class="hearts"></div>
-
-  <!-- 📸 Slider -->
-  <div class="slider-window">
-    <div class="slider-track">
-
-      <div class="slide">
-        <img src="images/1.jpg" alt="">
-        <p>The first moment that still makes me smile 💫</p>
-      </div>
-
-      <div class="slide">
-        <img src="images/2.jpg" alt="">
-        <p>Some memories never fade 💖</p>
-      </div>
-
-      <div class="slide">
-        <img src="images/3.jpg" alt="">
-        <p>You make ordinary days special 🌸</p>
-      </div>
-
-      <!-- add more slides -->
-
-    </div>
-  </div>
-
-  <!-- 🎶 Music -->
-  <audio id="bg-music"></audio>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
